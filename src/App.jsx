@@ -11,6 +11,7 @@ function App() {
         <Button warna="bg-red-500">Log in</Button>
         <Button warna="bg-slate-500"> Log out</Button>
         <Button warna="bg-indigo-500"> View</Button>
+        <Button> Contoh</Button>
       </div>
       
 
