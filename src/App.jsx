@@ -1,12 +1,13 @@
 import React from "react"
-import LoginLayouts from "./assets/components/Layouts/LoginLayouts";
-
-
+import AuthLayouts from "./components/Layouts/AuthLayouts";
+import FormLogin from "./components/Flagments/FormLogin";
 function App() {
 
   return (
     <>
-      <LoginLayouts />
+      <AuthLayouts title="Login">
+        <FormLogin />
+      </AuthLayouts>
 
     </>
 
