@@ -1,10 +1,10 @@
 import AuthLayouts from "../components/Layouts/AuthLayouts";
-import FormLogin from "../components/Flagments/FormLogin";
+import FormRegister from "../components/Flagments/FormRegister";
 
 const Login = () => {
     return (
-        <AuthLayouts title="Login">
-            <FormLogin />
+        <AuthLayouts title="Register">
+            <FormRegister />
         </AuthLayouts>
 
     )
